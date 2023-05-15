@@ -1,3 +1,4 @@
+import 'package:fic4_flutter_widgets_challenges/tugas/navigation/drawer_widget.dart';
 import 'package:fic4_flutter_widgets_challenges/tugas/navigation/navigation_push.dart';
 import 'package:fic4_flutter_widgets_challenges/tugas/navigation/sliver_widget.dart';
 import 'package:fic4_flutter_widgets_challenges/tugas/navigation/tabbar_widget.dart';
@@ -22,7 +23,8 @@ class MyApp extends StatelessWidget {
       // home: const MyHomePage(title: 'Flutter Demo Home Page'),
       // home: SliverWidget(),
       // home: TabbarWidget(),
-      home: NavigationPush(),
+      // home: NavigationPush(),
+      home: DrawerWidget(),
     );
   }
 }
