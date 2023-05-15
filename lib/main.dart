@@ -1,3 +1,4 @@
+import 'package:fic4_flutter_widgets_challenges/tugas/navigation/bottom_navbar.dart';
 import 'package:fic4_flutter_widgets_challenges/tugas/navigation/drawer_widget.dart';
 import 'package:fic4_flutter_widgets_challenges/tugas/navigation/navigation_push.dart';
 import 'package:fic4_flutter_widgets_challenges/tugas/navigation/sliver_widget.dart';
@@ -24,7 +25,8 @@ class MyApp extends StatelessWidget {
       // home: SliverWidget(),
       // home: TabbarWidget(),
       // home: NavigationPush(),
-      home: DrawerWidget(),
+      // home: DrawerWidget(),
+      home: BottomNavbarWidget(),
     );
   }
 }
