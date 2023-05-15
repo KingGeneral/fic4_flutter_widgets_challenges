@@ -9,22 +9,22 @@ class TabbarWidget extends StatefulWidget {
 
 class _TabbarWidgetState extends State<TabbarWidget>
     with SingleTickerProviderStateMixin {
+  late TabController _tabbarController;
+  @override
+  initState() {
+    super.initState();
+    _tabbarController = TabController(length: 3, vsync: this);
+    _tabbarController.addListener(() {});
+  }
+
+  @override
+  void dispose() {
+    _tabbarController.dispose();
+    super.dispose();
+  }
+
   @override
   Widget build(BuildContext context) {
-    late TabController _tabbarController;
-    _tabbarController = TabController(length: 3, vsync: this);
-
-    initState() {
-      super.initState();
-      _tabbarController.addListener(() {});
-    }
-
-    @override
-    void dispose() {
-      _tabbarController.dispose();
-      super.dispose();
-    }
-
     return Scaffold(
       appBar: AppBar(
         title: Text("Tabbar"),
