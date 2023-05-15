@@ -1,3 +1,5 @@
+import 'package:fic4_flutter_widgets_challenges/tugas/basic_form/dialog_widget.dart';
+import 'package:fic4_flutter_widgets_challenges/tugas/basic_form/form_widget.dart';
 import 'package:fic4_flutter_widgets_challenges/tugas/basic_layout/aspectratio.dart';
 import 'package:fic4_flutter_widgets_challenges/tugas/basic_layout/center_widget.dart';
 import 'package:fic4_flutter_widgets_challenges/tugas/basic_layout/column_widget.dart';
@@ -5,6 +7,10 @@ import 'package:fic4_flutter_widgets_challenges/tugas/basic_layout/expanded_widg
 import 'package:fic4_flutter_widgets_challenges/tugas/basic_layout/gridview_widget.dart';
 import 'package:fic4_flutter_widgets_challenges/tugas/basic_layout/listview_widget.dart';
 import 'package:fic4_flutter_widgets_challenges/tugas/basic_layout/padding_widget.dart';
+import 'package:fic4_flutter_widgets_challenges/tugas/basic_layout/row_widget.dart';
+import 'package:fic4_flutter_widgets_challenges/tugas/basic_layout/sizedbox_widget.dart';
+import 'package:fic4_flutter_widgets_challenges/tugas/basic_layout/stack_widget.dart';
+import 'package:fic4_flutter_widgets_challenges/tugas/basic_layout/wrap_widget.dart';
 import 'package:fic4_flutter_widgets_challenges/tugas/basic_widget/button_widget.dart';
 import 'package:fic4_flutter_widgets_challenges/tugas/basic_widget/circle_avatar_widget.dart';
 import 'package:fic4_flutter_widgets_challenges/tugas/basic_widget/container_widget.dart';
@@ -17,6 +23,7 @@ import 'package:fic4_flutter_widgets_challenges/tugas/navigation/drawer_widget.d
 import 'package:fic4_flutter_widgets_challenges/tugas/navigation/navigation_push.dart';
 import 'package:fic4_flutter_widgets_challenges/tugas/navigation/sliver_widget.dart';
 import 'package:fic4_flutter_widgets_challenges/tugas/navigation/tabbar_widget.dart';
+import 'package:fic4_flutter_widgets_challenges/tugas/stateful_sample/stateless_stateful_widget.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -58,7 +65,16 @@ class MyApp extends StatelessWidget {
       // home: ExpandedWidget(),
       // home: GridViewWidget(),
       // home: ListViewWidget(),
-      home: PaddingWidget(),
+      // home: PaddingWidget(),
+      // home: RowWidget(),
+      // home: SizedBoxWidget(),
+      // home: StackWidget(),
+      // home: WrapWidget(),
+
+      // sample
+      // home: StatelessStatefulWidget(),
+      // home: DialogWidget(),
+      home: FormWidget(),
     );
   }
 }
